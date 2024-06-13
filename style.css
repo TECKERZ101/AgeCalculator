@@ -54,3 +54,9 @@ input {
     letter-spacing: 2px;
     caret-color: var(--Purple);
 }
+
+h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--Light-red);
+}
