@@ -37,6 +37,18 @@ body {
     position: relative;
 }
 
+.title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline wavy var(--Purple);
+}
+
 .inputSection {
     display: flex;
     margin-bottom: 35px;
@@ -113,3 +125,36 @@ p.error {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 375px) {
+    .input {
+      margin-bottom: 40px;
+    }
+    input {
+      font-size: 18px;
+      width: 80px;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+    .content {
+      background: var(--White);
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      border-bottom-right-radius: 30%;
+      position: relative;
+    }
+    .result h1 {
+      font-size: 45px;
+      font-style: italic;
+    }
+    p.error {
+      font-size: 10px;
+    }
+    button {
+      right: 40%;
+    }
+    .result {
+      margin-top: 40px;
+    }
+  }
