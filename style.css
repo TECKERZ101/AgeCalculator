@@ -80,3 +80,18 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background: var(--Off-black);
+}
+
+input:focus {
+    border: 0.5px solid var(--Purple);
+}
+
+p.error {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--Light-red);
+    font-style: italic;
+    margin: 5px 0;
+}
