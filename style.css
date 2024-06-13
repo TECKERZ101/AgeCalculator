@@ -66,3 +66,17 @@ hr {
     height: 1px;
     color: var(--Light-grey);
 }
+
+button {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: var(--Purple);
+    right: 50px;
+    margin-top: -32px;
+    cursor: pointer;
+}
+
