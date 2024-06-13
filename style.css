@@ -95,3 +95,12 @@ p.error {
     font-style: italic;
     margin: 5px 0;
 }
+
+.result h1 {
+    font-size: 60px;
+    font-style: italic;
+}
+
+.result span {
+    color: var(--Purple);
+}
