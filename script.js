@@ -39,7 +39,7 @@ calculateBtn.addEventListener('click', () => {
     yearOut.innerText = years;
   });
   
-  // Get Number of Days in a particular months
+  // Get Number oxf Days in a particular months
   function getNoOfDays(y, m) {
     return new Date(y, m, 0).getDate();
   }
