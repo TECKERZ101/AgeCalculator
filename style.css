@@ -60,3 +60,9 @@ h6 {
     letter-spacing: 2px;
     color: var(--Light-red);
 }
+
+hr {
+    border: none;
+    height: 1px;
+    color: var(--Light-grey);
+}
