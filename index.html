@@ -9,24 +9,38 @@
   <script src="./script.js"></script>
 </head>
 <body>
-  <main>
-    <div class="inputSecton">
-      <div>
-        <h6>Day</h6>
-        <input id= "dayInput" type="text" placeholder="DD">
+  <main class="container">
+    <div class="content">
+      <div class="inputSecton">
+        <div>
+          <h6>Day</h6>
+          <input id= "dayInput" type="text" placeholder="DD">
+          <p class="error"></p>
+        </div>
+        <div>
+          <h6>Month</h6>
+          <input id="monthInput" type="text" placeholder="MM">
+          <p class="error"></p>
+        </div>
+        <div>
+          <h6>Year</h6>
+          <input id="yearInput" type="text" placeholder="YYYY">
+          <p class="error"></p>
+        </div>
       </div>
-      <div>
-        <h6>Month</h6>
-        <input id="monthInput" type="text" placeholder="MM">
-      </div>
-      <div>
-        <h6>Year</h6>
-        <input id="yearInput" type="text" placeholder="YYYY">
+      <hr>
+      <button id="calculateButton">
+        <img src="./assets/images/icon-arrow.svg" alt="">
+      </button>
+      <div class="result">
+        <h1><span id="yearOut">--</span> years</h1>
+        <h1><span id="monthOut">--</span> months</h1>
+        <h1><span id="dayOut">--</span> days</h1>
       </div>
     </div>
-    -- years
-    -- months
-    -- days
   </main>
+  <footer class="attribution">
+    Coded by <a href="">Isaac K Clifton</a>
+  </footer>
 </body>
 </html>
