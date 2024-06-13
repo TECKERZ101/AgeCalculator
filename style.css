@@ -27,3 +27,30 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+.content {
+    background: var(--White);
+    width: 750px;
+    padding: 50px;
+    border-radius: 20px;
+    border-bottom-right-radius: 40%;
+    position: relative;
+}
+
+.inputSection {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+input {
+    font-size: 32px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 0.5px solid var(--Light-grey);
+    outline: none;
+    letter-spacing: 2px;
+    caret-color: var(--Purple);
+}
